@@ -1,0 +1,66 @@
+/* Reset some basic elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: #444;
+}
+
+.header, .section {
+  margin-bottom: 20px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.section-title {
+  background-color: #0A66C2;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact-info img, .contact-info i {
+  width: 24px;
+  height: 24px;
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.skills ul li, .experience ul li, .education ul li {
+  background-color: #e4e4e4;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
